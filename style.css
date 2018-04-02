@@ -1,0 +1,11 @@
+.centered {
+    text-align: center;
+}
+
+.noborder {
+    border: 0;
+}
+
+.btn-right {
+    float: right;
+}
