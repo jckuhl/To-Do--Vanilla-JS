@@ -29,7 +29,7 @@
 
     markall.addEventListener("click", (e)=> {
         const completed = document.querySelectorAll(`input[name="complete"]`);
-        completed.forEach( (checkbox)=> checkbox.checked = markall.checked ? true : false );
+        completed.forEach( (checkbox)=> checkbox.checked = markall.checked );
     });
 
 })();
